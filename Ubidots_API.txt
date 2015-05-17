@@ -1,0 +1,21 @@
+API Key:
+f4a44b0bbbfdc25207c5841ba91ada2c2bc9235c
+
+shortToken:
+MwfUgzsePHX23qkwzobofEh6OcIs97
+
+WiFlyToken:
+BxauWP1rrYSbDL69LxdPoD5ErHBlwZ65ihEMuHFiiOLyJhsPyb7JLy1JTmOW
+
+Requested Token via API:
+Fckv4QFlbXsWpOD2vXcsJFV5e6dfohOMfFBuUPL6BSxm8gXWVdsw2HLKMtnO
+
+Humidity Variable ID:
+55443559762542161bf77cb3
+
+Temperature Variable ID:
+554456c77625423c665ab445
+
+Sample URL for Curl:
+
+curl -XPOST -H 'Content-Type: application/json;' -H 'X-Auth-Token:MwfUgzsePHX23qkwzobofEh6OcIs97' -d '{"value": 45}' http://things.ubidots.com/api/v1.6/variables/55443559762542161bf77cb3/values
